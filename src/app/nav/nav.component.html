@@ -1,0 +1,26 @@
+<mat-sidenav-container>
+    <mat-sidenav [(opened)]="opened">Sidenav</mat-sidenav>
+    <mat-sidenav-content>
+        <div class="nav-bar">
+            <div class="nav-burger">
+                <button (click)='opened=!opened' mat-button class="menu-button">
+                    <mat-icon>menu</mat-icon>
+                </button>
+                <span>GMFCTN!</span>
+            </div>
+            <div class="nav-button">
+                <a routerLink="/dashboard" class="nav-btn">Dashbord</a>
+                <a routerLink="/badges" class="nav-btn">Badges</a>
+                <a routerLink="/orders" class="nav-btn">Orders</a>
+            </div>
+            <div class="nav-user">
+                <img>
+                <a routerLink="" class="nav-drop-down">Tanya Gogina</a>
+                <span class="material-icons">
+                    arrow_drop_down
+                </span>
+            </div>
+        </div>
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>

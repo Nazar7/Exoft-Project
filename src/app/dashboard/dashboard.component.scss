@@ -1,0 +1,25 @@
+.dashboard-container{
+    margin: 10px;
+}
+
+mat-grid-tile {
+    background-color: lightblue;
+
+}
+
+.dashboard-header{
+    background-color: rgb(120, 194, 10);
+}
+
+.dashboard-header{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+h1,h4{
+    color: white;
+    width: 100%;
+    padding-left: 25px;
+}
