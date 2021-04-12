@@ -34,6 +34,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatTreeModule } from '@angular/material/tree';
+import {ScrollingModule} from '@angular/cdk/scrolling';
 
 @NgModule({
     imports: [
@@ -70,7 +71,8 @@ import { MatTreeModule } from '@angular/material/tree';
         MatToolbarModule,
         MatTooltipModule,
         MatTreeModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        ScrollingModule
     ],
     exports: [
         MatAutocompleteModule,
@@ -106,7 +108,8 @@ import { MatTreeModule } from '@angular/material/tree';
         MatToolbarModule,
         MatTooltipModule,
         MatTreeModule,
-        MatNativeDateModule
+        MatNativeDateModule,
+        ScrollingModule
     ],
     providers: [     
     ]

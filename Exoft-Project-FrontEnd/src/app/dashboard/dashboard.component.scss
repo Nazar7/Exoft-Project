@@ -1,13 +1,17 @@
+
 .dashboard-container{
     margin: 10px;
+
 }
 
-mat-grid-tile {
+.mat-grid-tile {
     background-color: lightblue;
+
 
 }
 
 .dashboard-header{
+    width: 100%;
     background-color: rgb(120, 194, 10);
 }
 
@@ -23,3 +27,15 @@ h1,h4{
     width: 100%;
     padding-left: 25px;
 }
+
+.grid-box{
+    width: 200px;
+}
+
+.challenges,
+.exof-achevements,
+.top-chart{
+    width: 100%;
+}
+
+

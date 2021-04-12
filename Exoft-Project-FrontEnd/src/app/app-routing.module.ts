@@ -5,6 +5,7 @@ import {BadgesComponent} from './badges/badges.component';
 import {OrdersComponent} from './orders/orders.component';
 
 
+
 const routes: Routes = [
   {path : 'dashboard', component: DashboardComponent},
   {path : 'badges', component: BadgesComponent},

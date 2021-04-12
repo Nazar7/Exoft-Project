@@ -1,0 +1,129 @@
+
+
+.challenges{
+    width: 100%;
+    height: 252px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: grey;
+    border-radius: 3px;
+}
+
+.challenges-header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 15px 0px 15px;
+  
+   
+}
+
+
+
+h6{
+    display: flex;
+    align-content: center;
+    font-weight: 800;
+    width: 60%;
+    color: white;
+    font-size: 11px;
+}
+
+button{
+    width: 30%;
+    width: 65px;
+    height: 25px;
+    background-color: green;
+    color: white;
+    border:0px;
+
+}
+
+
+.challenges-body {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin-top: 15px;
+  }
+
+  .box{
+      display: block;
+      width: 100%;
+      height: 110px;;
+  }
+  
+  .line {
+    border-left: 1px solid rgb(208, 208, 208);
+    height: 100%;
+    width: 10px;
+    position: absolute;
+    left: 30px;
+    margin-left: -3px;
+    top: 0;
+    z-index: 0;
+  }
+
+  .circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 1px solid black;
+    background-color: green;
+    position: absolute;
+    left: 23px;
+    z-index: 1;
+  }
+
+  .challenges-status{
+    position: relative;
+    margin-left: 50px;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 5px;
+
+}
+
+.challenges-status-description{
+    width: 100%;
+    display: flex;
+    align-items: center;
+  
+}
+
+.challenges-status-type{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+}
+
+
+.challenges-status-complete{
+    color: white;
+    font-size: 12px;
+}
+
+.challenges-status-percent{
+    color: green;
+}
+
+img{
+    width: 180px;
+    height: 80px;
+}
+
+cdk-virtual-scroll-viewport{
+    width: 100%;
+}
+
+app-chalanges{
+    width: 100%;
+}
+
+
+

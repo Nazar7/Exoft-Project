@@ -1,5 +1,7 @@
-<mat-sidenav-container>
-    <mat-sidenav [(opened)]="opened">Sidenav</mat-sidenav>
+<mat-sidenav-container> 
+    <mat-sidenav class="side-bar" mode="side"  [(opened)]="opened">
+        <app-sidebar></app-sidebar>
+    </mat-sidenav>
     <mat-sidenav-content>
         <div class="nav-bar">
             <div class="nav-burger">
